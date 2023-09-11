@@ -10,7 +10,7 @@ test('Login as Admin - Logout', async ({ page }) => {
   await page.getByTestId('password').fill('password');
   await page.getByTestId('submit').click();
 
-  await expect(page.getByRole("link", { name: "Logout" })).toHaveText("Logoutñññ");
+  await expect(page.getByRole("link", { name: "Logout" })).toHaveText("Logout");
 
   await page.getByRole("link", { name: "Logout" }).click();
   await expect(page.getByRole("link", { name: "Logout" })).not.toBeVisible();

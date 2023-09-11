@@ -27,4 +27,4 @@ Playwright es una nueva herramienta que se ha unido a las filas de Cypress y Sel
 
 * [Playwright.dev](https://playwright.dev/) - Documentación oficial
 * [Playwright Discord](https://aka.ms/playwright/discord) - hay un foro como canal donde pueden hacer preguntas o buscar respuestas si están atascados.
-* [Playwright Solutions](https://playwrightsolutions.com/) - Butch Mayhew este sitio para ayudar a proporcionar soluciones de alta calidad a problemas comunes con Playwright en Javascript/Typescript.
+* [Playwright Solutions](https://playwrightsolutions.com/) - Butch Mayhew ha creado este sitio para ayudar a proporcionar soluciones de alta calidad a problemas comunes con Playwright en Javascript/Typescript.

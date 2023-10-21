@@ -1,5 +1,5 @@
 {
-  "name": "ada13",
+  "name": "playwright-workshop-esp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.37.1"
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.9.2"
   }
 }

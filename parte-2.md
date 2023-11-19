@@ -14,9 +14,9 @@ Comience a grabar los pasos:
 * Click "Let me Hack" button
 * Click Admin panel (al pie de la página)
 * Click username
-* Fill username with `admin`
+* Completar el campo username with `admin`
 * click password
-* Fill password with `password`
+* Completar el campo password with `password`
 * Click Submit
 * Click Logout
 

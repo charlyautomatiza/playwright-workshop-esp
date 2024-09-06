@@ -41,7 +41,8 @@ import { defineConfig, devices } from '@playwright/test';
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
-// require('dotenv').config();
+// import dotenv from 'dotenv';
+// dotenv.config({ path: path.resolve(__dirname, '.env') });
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -66,11 +67,12 @@ export default defineConfig({
     actionTimeout: 0,
     ignoreHTTPSErrors: true,
     video: "retain-on-failure",
-    trace: "retain-on-failure",
     screenshot: "only-on-failure",
-
     /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: "https://automationintesting.online",
+    baseURL: 'https://automationintesting.online',
+
+    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
+    trace: 'on-first-retry',
   },
 
   /* Configure projects for major browsers */

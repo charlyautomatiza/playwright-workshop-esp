@@ -1,7 +1,7 @@
 {
   "name": "playwright-workshop-esp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este workshop está basado en la versión en inglés de Butch Mayhew impartido en la conferencia Ministry of Testing  [Hands on Test Automation With Playwright](https://www.ministryoftesting.com/events/hands-on-test-automation-with-playwright#sessions) workshop. Link al repo original: <https://github.com/BMayhew/mot-playwright-workshop>",
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.40.0",
-    "@types/node": "^20.9.2"
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.5.4"
   }
 }

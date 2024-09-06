@@ -5,7 +5,7 @@ Ahora que ya tenemos algunos ejemplos escritos, podemos eliminar los ejemplos po
 * example.spec.ts
 * /tests-examples/demo-todo-app.spec.ts (carpeta y archivo)
 
-En el caso de que no lo hayamos hecho aún, podemos refactorizar el test 
+En el caso de que no lo hayamos hecho aún, podemos refactorizar el test
 
 * `test-1.spec.ts` para que ahora tenga el nombre: [login.spec.ts](./tests/login.spec.ts)
 

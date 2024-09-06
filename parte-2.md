@@ -26,10 +26,10 @@ Hasta ahora no tenemos una prueba, sólo tenemos el navegador haciendo algunas a
 
 Tenemos que hacer estas pruebas:
 
-- ¿Cómo podemos comprobar hicimos un login correcto?
-- ¿Cómo podemos comprobar si hicimos logout correctamente?
+* ¿Cómo podemos comprobar hicimos un login correcto?
+* ¿Cómo podemos comprobar si hicimos logout correctamente?
 
-🔨 Es tu turno de añadir esas aserciones 
+🔨 Es tu turno de añadir esas aserciones
 
 Si alguien está recibiendo algún error raro de timeout es probablemente porque le falta un `await` al interactuar con la `page.xxxx` en sus aserciones.
 

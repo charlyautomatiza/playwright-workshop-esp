@@ -17,9 +17,10 @@ Un cambio que hicimos respecto a la documentación oficial fue crear el `constru
 ```typescript
 constructor(private readonly page: Page) {}
 ```
+
 También he creado una segunda prueba que utiliza una función asíncrona que toma un nombre de usuario y contraseña y hace click en el botón Enviar para iniciar sesión.
 
 También he editado el archivo [package.json](./package.json) para añadir un nuevo script para ejecutar las pruebas.
 
-- `npm run test` - Ejecutará todos los tests
-- `npm run ui` - Ejecutará Playwright en modo UI, una funcionalidad incluida en Playwright v1.32.0
+* `npm run test` - Ejecutará todos los tests
+* `npm run ui` - Ejecutará Playwright en modo UI, una funcionalidad incluida desde Playwright v1.32.0

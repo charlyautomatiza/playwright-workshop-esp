@@ -61,6 +61,6 @@ test.describe("booking/ GET requests", () => {
   });
 });
 
-export function isValidDate(date: string) {
+export function isValidDate(date: string): boolean {
   return !!Date.parse(date);
 }

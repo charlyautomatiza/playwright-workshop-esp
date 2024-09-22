@@ -21,6 +21,6 @@ También mostraremos cómo importar funciones asíncronas para mantener nuestro 
 
 * [Playwright Solutions](https://playwrightsolutions.com/) - Butch Mayhew ha creado este sitio para ayudar a proporcionar soluciones de alta calidad a problemas comunes con Playwright en Javascript/Typescript.
 
-* [Playwright Discord - Community](https://discord.gg/playwright-807756831384403968) - Muchas preguntas, respuestas y debate
+* [Playwright Discord - Community](https://discord.com/invite/playwright) - Muchas preguntas, respuestas y debate
 
 * [Tu Feedback es un regalo para mí!](https://forms.gle/USHahwNNGD3BdheQ6) - Háganme llegar sus opiniones, ¡Siempre estoy buscando aspectos que mejorar!

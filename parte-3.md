@@ -43,6 +43,6 @@ Responde a la petición de la request.
 
 * [Playwright Solutions](https://playwrightsolutions.com/) - Butch Mayhew ha creado este sitio para ayudar a proporcionar soluciones de alta calidad a problemas comunes con Playwright en Javascript/Typescript.
 
-* [Playwright Discord - Community](https://discord.gg/playwright-807756831384403968) - Lots of questions, answers, and discussion
+* [Playwright Discord - Community](https://discord.com/invite/playwright) - Lots of questions, answers, and discussion
 * [Javascript Visualized Promises0async-awaits](https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke)
 * [Tu Feedback es un regalo para mí!](https://forms.gle/USHahwNNGD3BdheQ6) - Háganme llegar sus opiniones, ¡Siempre estoy buscando aspectos que mejorar!

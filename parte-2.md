@@ -14,9 +14,9 @@ Comience a grabar los pasos:
 * Click "Let me Hack" button
 * Click Admin panel (al pie de la página)
 * Click username
-* Fill username with `admin`
+* Completar el campo username with `admin`
 * click password
-* Fill password with `password`
+* Completar el campo password with `password`
 * Click Submit
 * Click Logout
 
@@ -29,7 +29,19 @@ Tenemos que hacer estas pruebas:
 * ¿Cómo podemos comprobar hicimos un login correcto?
 * ¿Cómo podemos comprobar si hicimos logout correctamente?
 
-🔨 Es tu turno de añadir esas aserciones
+🔨 Es tu turno de añadir esas aserciones, alguna de ellas podrían ser
+
+```typescript
+    await page.getByTestId('submit').click();
+    // Luego de hacer login, podemos validar que esté disponible el boton de logout
+    await expect(page.getByRole('link', { name: 'Logout' })).toBeVisible();
+
+    await page.getByRole('link', { name: 'Logout' }).click();
+
+    // Luego de hacer logout, podemos validar que esté disponible el login
+    await expect(page.getByTestId('login-header')).toContainText('Log into your account');
+    await expect(page.getByTestId('submit')).toBeVisible();
+```
 
 Si alguien está recibiendo algún error raro de timeout es probablemente porque le falta un `await` al interactuar con la `page.xxxx` en sus aserciones.
 

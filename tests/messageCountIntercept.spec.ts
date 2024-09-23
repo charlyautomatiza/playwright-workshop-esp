@@ -1,10 +1,6 @@
 import { test, expect, selectors, Page, Route } from "@playwright/test";
 import { AdminPage } from "../lib/pages/admin.page";
-
-// Definir una interfaz para el tipo de datos de la respuesta
-interface MessageCount {
-  count: number;
-}
+import { MessageCount } from "../lib/messageCount";
 
 test.describe("/admin Checks", () => {
   test.beforeAll(async () => {
